@@ -1,0 +1,456 @@
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri May 29 17:45:33 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2) on 27 January 2019 06:03:20
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Sat Oct 12 00:02:19 PDT 2019; root:xnu-4903.278.12~1/RELEASE_X86_64
+nodename: AnupGogoi.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/anupgogoi/Documents/GitHub/ANJO/anjo
+writing pidfile to /tmp/anjo.pid
+detected binary path: /Library/Frameworks/Python.framework/Versions/3.6/bin/uwsgi
+chdir() to /Users/anupgogoi/Documents/GitHub/ANJO/anjo/anjo
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/anjo.sock fd 3
+Python version: 3.6.6 (v3.6.6:4cf1f54eb7, Jun 26 2018, 19:50:54)  [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/anupgogoi/Documents/GitHub/ANJO/venv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x0000000112ef65c0 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri May 29 18:47:59 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2) on 27 January 2019 06:03:20
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Sat Oct 12 00:02:19 PDT 2019; root:xnu-4903.278.12~1/RELEASE_X86_64
+nodename: AnupGogoi.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/anupgogoi/Documents/GitHub/ANJO/anjo
+writing pidfile to /tmp/anjo.pid
+detected binary path: /Library/Frameworks/Python.framework/Versions/3.6/bin/uwsgi
+chdir() to /Users/anupgogoi/Documents/GitHub/ANJO/anjo/anjo
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/anjo.sock fd 3
+Python version: 3.6.6 (v3.6.6:4cf1f54eb7, Jun 26 2018, 19:50:54)  [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/anupgogoi/Documents/GitHub/ANJO/venv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x000000010d60f5c0 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri May 29 18:48:53 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2) on 27 January 2019 06:03:20
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Sat Oct 12 00:02:19 PDT 2019; root:xnu-4903.278.12~1/RELEASE_X86_64
+nodename: AnupGogoi.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/anupgogoi/Documents/GitHub/ANJO/anjo
+writing pidfile to /tmp/anjo.pid
+detected binary path: /Library/Frameworks/Python.framework/Versions/3.6/bin/uwsgi
+chdir() to /Users/anupgogoi/Documents/GitHub/ANJO/anjo/anjo
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/anjo.sock fd 3
+Python version: 3.6.6 (v3.6.6:4cf1f54eb7, Jun 26 2018, 19:50:54)  [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/anupgogoi/Documents/GitHub/ANJO/venv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x000000010ed1e5c0 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri May 29 19:03:32 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2) on 27 January 2019 06:03:20
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Sat Oct 12 00:02:19 PDT 2019; root:xnu-4903.278.12~1/RELEASE_X86_64
+nodename: AnupGogoi.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/anupgogoi/Documents/GitHub/ANJO/anjo
+writing pidfile to /tmp/anjo.pid
+detected binary path: /Library/Frameworks/Python.framework/Versions/3.6/bin/uwsgi
+chdir() to /Users/anupgogoi/Documents/GitHub/ANJO/anjo/anjo
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/anjo.sock fd 3
+Python version: 3.6.6 (v3.6.6:4cf1f54eb7, Jun 26 2018, 19:50:54)  [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/anupgogoi/Documents/GitHub/ANJO/venv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x000000011523e5c0 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri May 29 19:07:58 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2) on 27 January 2019 06:03:20
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Sat Oct 12 00:02:19 PDT 2019; root:xnu-4903.278.12~1/RELEASE_X86_64
+nodename: AnupGogoi.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/anupgogoi/Documents/GitHub/ANJO/anjo
+writing pidfile to /tmp/anjo.pid
+detected binary path: /Library/Frameworks/Python.framework/Versions/3.6/bin/uwsgi
+chdir() to /Users/anupgogoi/Documents/GitHub/ANJO/anjo/anjo
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/anjo.sock fd 3
+Python version: 3.6.6 (v3.6.6:4cf1f54eb7, Jun 26 2018, 19:50:54)  [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/anupgogoi/Documents/GitHub/ANJO/venv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x000000010aebd5c0 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri May 29 19:27:54 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2) on 27 January 2019 06:03:20
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Sat Oct 12 00:02:19 PDT 2019; root:xnu-4903.278.12~1/RELEASE_X86_64
+nodename: AnupGogoi.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/anupgogoi/Documents/GitHub/ANJO/anjo
+writing pidfile to /tmp/anjo.pid
+detected binary path: /Library/Frameworks/Python.framework/Versions/3.6/bin/uwsgi
+chdir() to /Users/anupgogoi/Documents/GitHub/ANJO/anjo/anjo
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/anjo.sock fd 3
+Python version: 3.6.6 (v3.6.6:4cf1f54eb7, Jun 26 2018, 19:50:54)  [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/anupgogoi/Documents/GitHub/ANJO/venv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00000001123895c0 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri May 29 19:52:05 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2) on 27 January 2019 06:03:20
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Sat Oct 12 00:02:19 PDT 2019; root:xnu-4903.278.12~1/RELEASE_X86_64
+nodename: AnupGogoi.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/anupgogoi/Documents/GitHub/ANJO/anjo
+writing pidfile to /tmp/anjo.pid
+detected binary path: /Library/Frameworks/Python.framework/Versions/3.6/bin/uwsgi
+chdir() to /Users/anupgogoi/Documents/GitHub/ANJO/anjo/anjo
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/anjo.sock fd 3
+Python version: 3.6.6 (v3.6.6:4cf1f54eb7, Jun 26 2018, 19:50:54)  [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/anupgogoi/Documents/GitHub/ANJO/venv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x000000011c8965c0 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri May 29 19:53:34 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2) on 27 January 2019 06:03:20
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Sat Oct 12 00:02:19 PDT 2019; root:xnu-4903.278.12~1/RELEASE_X86_64
+nodename: AnupGogoi.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/anupgogoi/Documents/GitHub/ANJO/anjo
+writing pidfile to /tmp/anjo.pid
+detected binary path: /Library/Frameworks/Python.framework/Versions/3.6/bin/uwsgi
+chdir() to /Users/anupgogoi/Documents/GitHub/ANJO/anjo/anjo
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/anjo.sock fd 3
+Python version: 3.6.6 (v3.6.6:4cf1f54eb7, Jun 26 2018, 19:50:54)  [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/anupgogoi/Documents/GitHub/ANJO/venv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x000000010c60f5c0 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri May 29 19:58:18 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2) on 27 January 2019 06:03:20
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Sat Oct 12 00:02:19 PDT 2019; root:xnu-4903.278.12~1/RELEASE_X86_64
+nodename: AnupGogoi.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/anupgogoi/Documents/GitHub/ANJO/anjo
+writing pidfile to /tmp/anjo.pid
+detected binary path: /Library/Frameworks/Python.framework/Versions/3.6/bin/uwsgi
+chdir() to /Users/anupgogoi/Documents/GitHub/ANJO/anjo/anjo
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/anjo.sock fd 3
+Python version: 3.6.6 (v3.6.6:4cf1f54eb7, Jun 26 2018, 19:50:54)  [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/anupgogoi/Documents/GitHub/ANJO/venv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x000000010d6525c0 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri May 29 20:00:42 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2) on 27 January 2019 06:03:20
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Sat Oct 12 00:02:19 PDT 2019; root:xnu-4903.278.12~1/RELEASE_X86_64
+nodename: AnupGogoi.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/anupgogoi/Documents/GitHub/ANJO/anjo
+writing pidfile to /tmp/anjo.pid
+detected binary path: /Library/Frameworks/Python.framework/Versions/3.6/bin/uwsgi
+chdir() to /Users/anupgogoi/Documents/GitHub/ANJO/anjo/anjo
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/anjo.sock fd 3
+Python version: 3.6.6 (v3.6.6:4cf1f54eb7, Jun 26 2018, 19:50:54)  [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/anupgogoi/Documents/GitHub/ANJO/venv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x000000010c9dd5c0 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri May 29 20:13:14 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2) on 27 January 2019 06:03:20
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Sat Oct 12 00:02:19 PDT 2019; root:xnu-4903.278.12~1/RELEASE_X86_64
+nodename: AnupGogoi.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/anupgogoi/Documents/GitHub/ANJO/anjo
+writing pidfile to /tmp/anjo.pid
+detected binary path: /Library/Frameworks/Python.framework/Versions/3.6/bin/uwsgi
+chdir() to /Users/anupgogoi/Documents/GitHub/ANJO/anjo/anjo
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/anjo.sock fd 3
+Python version: 3.6.6 (v3.6.6:4cf1f54eb7, Jun 26 2018, 19:50:54)  [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/anupgogoi/Documents/GitHub/ANJO/venv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x000000010fa175c0 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri May 29 20:14:25 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2) on 27 January 2019 06:03:20
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Sat Oct 12 00:02:19 PDT 2019; root:xnu-4903.278.12~1/RELEASE_X86_64
+nodename: AnupGogoi.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/anupgogoi/Documents/GitHub/ANJO/anjo
+writing pidfile to /tmp/anjo.pid
+detected binary path: /Library/Frameworks/Python.framework/Versions/3.6/bin/uwsgi
+chdir() to /Users/anupgogoi/Documents/GitHub/ANJO/anjo/anjo
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/anjo.sock fd 3
+Python version: 3.6.6 (v3.6.6:4cf1f54eb7, Jun 26 2018, 19:50:54)  [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/anupgogoi/Documents/GitHub/ANJO/venv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x000000010df6f5c0 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri May 29 20:42:34 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2) on 27 January 2019 06:03:20
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Sat Oct 12 00:02:19 PDT 2019; root:xnu-4903.278.12~1/RELEASE_X86_64
+nodename: AnupGogoi.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/anupgogoi/Documents/GitHub/ANJO/anjo
+writing pidfile to /tmp/anjo.pid
+detected binary path: /Library/Frameworks/Python.framework/Versions/3.6/bin/uwsgi
+chdir() to /Users/anupgogoi/Documents/GitHub/ANJO/anjo/anjo
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/anjo.sock fd 3
+Python version: 3.6.6 (v3.6.6:4cf1f54eb7, Jun 26 2018, 19:50:54)  [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/anupgogoi/Documents/GitHub/ANJO/venv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x000000010e2d35c0 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri May 29 20:47:42 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2) on 27 January 2019 06:03:20
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Sat Oct 12 00:02:19 PDT 2019; root:xnu-4903.278.12~1/RELEASE_X86_64
+nodename: AnupGogoi.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/anupgogoi/Documents/GitHub/ANJO/anjo
+writing pidfile to /tmp/anjo.pid
+detected binary path: /Library/Frameworks/Python.framework/Versions/3.6/bin/uwsgi
+chdir() to /Users/anupgogoi/Documents/GitHub/ANJO/anjo/anjo
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/anjo.sock fd 3
+Python version: 3.6.6 (v3.6.6:4cf1f54eb7, Jun 26 2018, 19:50:54)  [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/anupgogoi/Documents/GitHub/ANJO/venv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x000000010b2745c0 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri May 29 20:59:35 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2) on 27 January 2019 06:03:20
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Sat Oct 12 00:02:19 PDT 2019; root:xnu-4903.278.12~1/RELEASE_X86_64
+nodename: AnupGogoi.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/anupgogoi/Documents/GitHub/ANJO/anjo
+writing pidfile to /tmp/anjo.pid
+detected binary path: /Library/Frameworks/Python.framework/Versions/3.6/bin/uwsgi
+chdir() to /Users/anupgogoi/Documents/GitHub/ANJO/anjo
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/anjo.sock fd 3
+Python version: 3.6.6 (v3.6.6:4cf1f54eb7, Jun 26 2018, 19:50:54)  [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/anupgogoi/Documents/GitHub/ANJO/anjo/../venv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x0000000108a5b5c0 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri May 29 21:00:19 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2) on 27 January 2019 06:03:20
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Sat Oct 12 00:02:19 PDT 2019; root:xnu-4903.278.12~1/RELEASE_X86_64
+nodename: AnupGogoi.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/anupgogoi/Documents/GitHub/ANJO/anjo
+writing pidfile to /tmp/anjo.pid
+detected binary path: /Library/Frameworks/Python.framework/Versions/3.6/bin/uwsgi
+chdir() to /Users/anupgogoi/Documents/GitHub/ANJO/anjo
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/anjo.sock fd 3
+Python version: 3.6.6 (v3.6.6:4cf1f54eb7, Jun 26 2018, 19:50:54)  [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/anupgogoi/Documents/GitHub/ANJO/anjo/../venv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x000000010a4595c0 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri May 29 21:06:26 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2) on 27 January 2019 06:03:20
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Sat Oct 12 00:02:19 PDT 2019; root:xnu-4903.278.12~1/RELEASE_X86_64
+nodename: AnupGogoi.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/anupgogoi/Documents/GitHub/ANJO/anjo
+writing pidfile to /tmp/anjo.pid
+detected binary path: /Library/Frameworks/Python.framework/Versions/3.6/bin/uwsgi
+chdir() to /Users/anupgogoi/Documents/GitHub/ANJO/anjo
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/anjo.sock fd 3
+Python version: 3.6.6 (v3.6.6:4cf1f54eb7, Jun 26 2018, 19:50:54)  [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/anupgogoi/Documents/GitHub/ANJO/anjo/../venv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00000001147685c0 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri May 29 21:13:37 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2) on 27 January 2019 06:03:20
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Sat Oct 12 00:02:19 PDT 2019; root:xnu-4903.278.12~1/RELEASE_X86_64
+nodename: AnupGogoi.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/anupgogoi/Documents/GitHub/ANJO/anjo
+writing pidfile to /tmp/anjo.pid
+detected binary path: /Library/Frameworks/Python.framework/Versions/3.6/bin/uwsgi
+chdir() to /Users/anupgogoi/Documents/GitHub/ANJO/anjo
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/anjo.sock fd 3
+Python version: 3.6.6 (v3.6.6:4cf1f54eb7, Jun 26 2018, 19:50:54)  [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/anupgogoi/Documents/GitHub/ANJO/anjo/../venv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00000001036455c0 (most recent call first):
+*** Starting uWSGI 2.0.17.1 (64bit) on [Fri May 29 21:15:09 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2) on 27 January 2019 06:03:20
+os: Darwin-18.7.0 Darwin Kernel Version 18.7.0: Sat Oct 12 00:02:19 PDT 2019; root:xnu-4903.278.12~1/RELEASE_X86_64
+nodename: AnupGogoi.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/anupgogoi/Documents/GitHub/ANJO/anjo
+writing pidfile to /tmp/anjo.pid
+detected binary path: /Library/Frameworks/Python.framework/Versions/3.6/bin/uwsgi
+chdir() to /Users/anupgogoi/Documents/GitHub/ANJO/anjo
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /tmp/anjo.sock fd 3
+Python version: 3.6.6 (v3.6.6:4cf1f54eb7, Jun 26 2018, 19:50:54)  [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)]
+Set PythonHome to /Users/anupgogoi/Documents/GitHub/ANJO/anjo/../venv
+Fatal Python error: Py_Initialize: unable to load the file system codec
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x000000010a2835c0 (most recent call first):

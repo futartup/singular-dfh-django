@@ -1,2 +1,2 @@
-# singular-dfh-django
-Assignment submission on Singular Diffie-Hellman Method
+# ANJO
+ANJO Learning app

@@ -1,0 +1,235 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Futartup IO Technologies">
+    <meta name="generator" content="Jekyll v4.0.1">
+    <title>ANJOY Learning</title>
+    <link rel="stylesheet" href="{% static 'home/css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'fonts/css/fontawesome.css' %}">
+    <link rel="stylesheet" href="{% static 'fonts/css/all.css' %}">
+    <!--<link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/dashboard/">-->
+    
+    <!-- Bootstrap core CSS -->
+    
+
+    <style>
+      .card-img-top {
+          width: 100%;
+          height: 187px;
+          border-top-left-radius: calc(0.25rem - 1px);
+          border-top-right-radius: calc(0.25rem - 1px);
+      }
+      a {
+        color: #161719;
+        text-decoration: none;
+        background-color: transparent;
+      }
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+      .ijIwes {
+          position: fixed;
+          overflow-y: auto;
+          height: 100%;
+          width: 120px;
+          background-color: rgb(245, 245, 245);
+          z-index: 2;
+          flex: 0 0 90px;
+          transition: all 0.5s ease 0s;
+      }
+      .ijIwes li {
+          display: flex;
+          width: 100%;
+          flex-direction: column;
+          -webkit-box-align: center;
+          align-items: center;
+          flex: 0 0 auto;
+      }
+      .ijIwes li {
+          display: flex;
+          width: auto;
+          flex-direction: column;
+          -webkit-box-align: center;
+          align-items: center;
+          flex: 0 0 auto;
+      }
+      .ijIwes li:hover { background-color: grey; }
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    {% block style %}
+    {%endblock%}
+  </head>
+  <body>
+    <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+      <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="#">ANJOY Learning</a>
+      <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-toggle="collapse" data-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+      <ul class="navbar-nav px-3">
+        <li class="nav-item text-nowrap">
+          <a class="nav-link" href="#">Sign out</a>
+        </li>
+      </ul>
+    </nav>
+
+  <div class="container-fluid">
+      <div class="row">
+        <nav id="sidebarMenu" class="ijIwes col-md-3 col-lg-2 d-md-block">
+          <div class="sidebar-sticky pt-3">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">
+                  <i class="fa fa-compass fa-2x"></i>
+                </a><span data-feather="home">Explore</span>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fa fa-bookmark fa-2x"></i>
+                </a><span data-feather="file">My Courses</span>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fa fa-plus-square fa-2x"></i>
+                </a><span data-feather="file">Medical</span>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fa fa-university fa-2x"></i>
+                </a><span data-feather="file">IIT</span>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fa fa-cubes fa-2x"></i>
+                </a><span data-feather="file">AI</span>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10">
+          {% block main %}
+          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+            <i class="fa fa-tasks fa-2x"></i><h1>Let's get started</h1>
+            <div class="btn-toolbar mb-2 mb-md-0">
+              <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle">
+                <span data-feather="calendar"></span>
+                This week
+              </button>
+            </div>
+          </div>
+
+          <!--<canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas>-->
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="card shadow p-3 mb-5 bg-white rounded">
+                <img src="/media/7-8-images.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">(৭ - ৮)শ্ৰেণী</h5>
+                  <h5 class="card-title">(7 - 8)Class</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <div class="MuiBox-root jss269">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                       <path d="M12 20V10" stroke="#D2D2D6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                       <path d="M18 20V4" stroke="#D2D2D6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                       <path d="M6 20V16" stroke="#FF715B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <p class="MuiTypography-root jss16 jss270 undefined jss183 MuiTypography-body1">নতুন আৰম্ভ.</p>
+                    <p class="MuiTypography-root jss16 jss270 undefined jss183 MuiTypography-body1">New Beginning</p>
+                  </div>
+                  <a href="/courses" class="btn btn-primary">কোর্সস(Courses)</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card shadow p-3 mb-5 bg-white rounded">
+                <img src="/media/8-9-images.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">(৯-১০)শ্ৰেণী </h5>
+                  <h5 class="card-title">(9-10)Class </h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <div class="MuiBox-root jss233">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                       <path d="M12 20V10" stroke="#FF715B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                       <path d="M18 20V4" stroke="#D2D2D6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                       <path d="M6 20V16" stroke="#FF715B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <p class="MuiTypography-root jss16 jss234 undefined jss183 MuiTypography-body1">মজলিয়া</p>
+                    <p class="MuiTypography-root jss16 jss234 undefined jss183 MuiTypography-body1">intermediate</p>
+                  </div>
+                  <a href="#" class="btn btn-primary">কোর্সস(Courses)</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="card shadow p-3 mb-5 bg-white rounded">
+                <img src="/media/9-10-images.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">(১১-১২)শ্ৰেণী</h5>
+                  <h5 class="card-title">(11-12)Class</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <div class="MuiBox-root jss500">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                       <path d="M12 20V10" stroke="#FF715B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                       <path d="M18 20V4" stroke="#FF715B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                       <path d="M6 20V16" stroke="#FF715B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <p class="MuiTypography-root jss16 jss501 undefined jss183 MuiTypography-body1">পাকৈত</p>
+                    <p class="MuiTypography-root jss16 jss501 undefined jss183 MuiTypography-body1">advanced</p>
+                  </div>
+                  <a href="#" class="btn btn-primary">কোর্সস(Courses)</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card shadow p-3 mb-5 bg-white rounded">
+                <img src="/media/11-12-images.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">হ্যান মিহলি</h5>
+                  <h5 class="card-title">Miscellenous</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <div class="MuiBox-root jss500">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                       <path d="M12 20V10" stroke="#FF715B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                       <path d="M18 20V4" stroke="#FF715B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                       <path d="M6 20V16" stroke="#FF715B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <p class="MuiTypography-root jss16 jss501 undefined jss183 MuiTypography-body1">পাকৈত</p>
+                    <p class="MuiTypography-root jss16 jss501 undefined jss183 MuiTypography-body1">advanced</p>
+                  </div>
+                  <a href="#" class="btn btn-primary">কোর্সস(Courses)</a>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+          {%endblock%}
+        </main>
+        
+      </div>
+  </div>  
+<script rel="text/JavaScript" href="{% static 'home/js/bootstrap.js' %}"></script>
+<script rel="text/JavaScript" href="{% static 'fonts/js/fontawesone.js' %}"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+<script rel="text/JavaScript" href="{% static 'home/js/bootstrap.bundle.js' %}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+version: '3'
+# volumes:
+  # data
+services:
+  jenkins:
+    build: .
+    user: root
+    volumes:
+      - /jenkins/data:/var/jenkins_home
+      - /jenkins/artifacts:/var/jenkins_artifacts
+      - /var/run/docker.sock:/var/run/docker.sock 
+    networks:
+      - anjo_private_network
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+  nginx:
+    image: nginx:1.17
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+    networks:
+      - anjo_private_network
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+  anjo:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    # env_file:
+    #   - .env
+    volumes:
+      - .:/app
+      - "./apache2/wsgi.py:/app/anjo/wsgi.py"
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    networks:
+      - anjo_private_network
+  db:
+    image: mysql:8.0.2
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: password
+    ports:
+      - "3308:3306"
+    volumes:
+      - "./data:/var/lib/mysql:rw"
+      - "./my.conf:/etc/mysql/conf.d/config-file.cnf"
+    networks:
+      - anjo_private_network
+
+  admin:
+    image: adminer
+    ports:
+      - "8080:8080"
+    networks:
+      - anjo_private_network
+  cache:
+    image: redis:5.0.5
+    volumes:
+      - redis_data:/data
+    networks:
+      - anjo_private_network
+  
+volumes:
+  redis_data:
+networks:
+  anjo_private_network:
+    driver: bridge
