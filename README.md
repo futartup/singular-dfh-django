@@ -23,3 +23,5 @@ curl -X GET \
 - [DockerFile]( https://github.com/futartup/singular-dfh-django/blob/master/Dockerfile)
 - [Deployment Script](https://github.com/futartup/singular-dfh-django/blob/master/deploy.sh)
 - [Jenkins File](https://github.com/futartup/singular-dfh-django/blob/master/Jenkinsfile)
+
+***More better approach is Django Channels***
